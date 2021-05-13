@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+}
+li {
+    list-style: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+}
+.logo {
+    font-size: 5em;
+    padding-left: 40px;
+    color: white;
+}
+li .item {
+    color: white;
+    text-decoration: none;
+}
+li .item:hover {
+    color: black;
+    background-color: #999;
+    box-shadow: 0px 5px 0px 0px purple ;
+}
